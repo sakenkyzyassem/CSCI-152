@@ -102,16 +102,16 @@ double rpn( const std::vector<std::string> & expr )
 
 void teststack( )
 {
-stack s1 = { 1, 2, 3, 4, 5 };
-stack s2 = s1; // Copy constructor.
-for( unsigned int j = 0; j < 30; ++ j )
-s2. push( j * j );
-s1 = s2; // Assignment.
-s1 = s1; // Self assignment.
-s1 = { 100,101,102,103 };
-// Works because the compiler inserts constructor and
-// calls assignment with the result.
-std::cout << s1 << "\n";
+   stack s1 = { 1, 2, 3, 4, 5 };
+   stack s2 = s1; // Copy constructor.
+   for( unsigned int j = 0; j < 30; ++ j )
+   s2. push( j * j );
+   s1 = s2; // Assignment.
+   s1 = s1; // Self assignment.
+   s1 = { 100,101,102,103 };
+   // Works because the compiler inserts constructor and
+   // calls assignment with the result.
+   std::cout << s1 << "\n";
 }
 
 int main( int argc, char* argv [ ] )
