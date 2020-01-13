@@ -33,13 +33,13 @@ int main( int argc, char * argv [ ] )
 
    // If this inserts something, then there is something wrong with your code:
 
-   /*for( char c1 = 'A'; c1 <= 'Z'; ++ c1 )
+   for( char c1 = 'A'; c1 <= 'Z'; ++ c1 )
       for( char c2 = 'A'; c2 <= 'Z'; ++ c2 )
       {
          if( kaz. insert( std::string( { c1, c2 } )))
             std::cout << "something is wrong with your code: " << 
                       std::string( { c1, c2 } ) << "\n";
-      }*/
+      }
 
    if( false ) 
    {
@@ -112,7 +112,7 @@ int main( int argc, char * argv [ ] )
 
    std::cout << tab << "\n";
    std::cout << "totaltime " << tab. totaltime( ) << "\n";
-  
+   
 }
 
 

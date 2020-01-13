@@ -180,7 +180,7 @@ int main( int argc, char * argv [ ] )
       someset1.clear();
       someset2.clear();
 
-      std::cout<<someset1.isempty
+      std::cout << someset1.isempty();
 
       tab. insert( s, tt. time( ));
    }
