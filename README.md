@@ -13,6 +13,7 @@ CSCI-152
 |   |_ set.h
 |   |_ timer.h
 |   |_ timetable.h
+|   |_ README.md
 |   
 |---map
 |   |_ main.cpp
@@ -77,3 +78,11 @@ CSCI-152
         
 ```
 
+### Usage:
+You may change the conent of any main***.cpp, check.cpp file. Then to run it: 
+```Ubuntu
+# In Linux Command Line:
+# Go to the directory you saved a project
+~? g++ main.cpp nameofdatastructure.cpp -o any_name
+~? ./any_name
+```
