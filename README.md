@@ -11,12 +11,16 @@ CSCI-152
 |   |_ Makefile
 |   |_ set.cpp
 |   |_ set.h
+|   |_ timer.h
+|   |_ timetable.h
 |   
 |---map
 |   |_ main.cpp
 |   |_ Makefile
 |   |_ map.cpp
 |   |_ map.h
+|   |_ timer.h
+|   |_ timetable.h
 |
 |---performance_comp
 |   |_ sorttests.cpp
@@ -31,6 +35,8 @@ CSCI-152
 |   |_ Makefile
 |   |_ queue.cpp
 |   |_ queue.h
+|   |_ timer.h
+|   |_ timetable.h
 |
 |---set
 |   |_ set(linkedlist)
@@ -39,6 +45,8 @@ CSCI-152
 |   |   |_ set.cpp
 |   |   |_ set.h
 |   |   |_ check.cpp
+|   |   |_ timer.h
+|   |   |_ timetable.h
 |   |  
 |   |_ set(vector)
 |   |   |_ main.cpp
@@ -47,17 +55,25 @@ CSCI-152
 |   |   |_ Makefile
 |   |   |_ set.cpp
 |   |   |_ set.h
+|   |   |_ timer.h
+|   |   |_ timetable.h
+|   |   
 |---stack
     |_ stack(linkedlist)
     |   |_ main.cpp
     |   |_ Makefile
     |   |_ stack.cpp
     |   |_ stack.h
+    |   |_ timer.h
+    |   |_ timetable.h
     |  
     |_ stack(vector)
         |_ main.cpp
         |_ Makefile
         |_ stack.cpp
         |_ stack.h
+        |_ timer.h
+        |_ timetable.h
+        
 ```
 
