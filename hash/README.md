@@ -21,4 +21,4 @@ g++ main.cpp set.cpp -o any_name
  - clear() # deletes all the elements in a set
  - getnrbuckets() # returns the number of buckets in a set
  - getbucket(int i) # returns a list of strings in a i-th bucket 
-                          
+```                          
