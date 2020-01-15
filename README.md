@@ -20,8 +20,6 @@ CSCI-152
 |   |_ Makefile
 |   |_ queue.cpp
 |   |_ queue.h
-|   |_ timer.h
-|   |_ timetable.h
 |
 |---set
 |   |_ set(linkedlist)
@@ -30,8 +28,6 @@ CSCI-152
 |   |   |_ set.cpp
 |   |   |_ set.h
 |   |   |_ check.cpp
-|   |   |_ timer.h
-|   |   |_ timetable.h
 |   |  
 |   |_ set(vector)
 |   |   |_ main.cpp
@@ -40,24 +36,18 @@ CSCI-152
 |   |   |_ Makefile
 |   |   |_ set.cpp
 |   |   |_ set.h
-|   |   |_ timer.h
-|   |   |_ timetable.h
 |   |   
 |   |_hash
 |   |   |_ main.cpp
 |   |   |_ Makefile
 |   |   |_ set.cpp
 |   |   |_ set.h
-|   |   |_ timer.h
-|   |   |_ timetable.h
 |   |
 |   |_map
 |   |   |_ main.cpp
 |   |   |_ Makefile
 |   |   |_ map.cpp
 |   |   |_ map.h
-|   |   |_ timer.h
-|   |   |_ timetable.h
 |
 |---stack
     |_ stack(linkedlist)
@@ -65,21 +55,18 @@ CSCI-152
     |   |_ Makefile
     |   |_ stack.cpp
     |   |_ stack.h
-    |   |_ timer.h
-    |   |_ timetable.h
     |  
     |_ stack(vector)
         |_ main.cpp
         |_ Makefile
         |_ stack.cpp
         |_ stack.h
-        |_ timer.h
-        |_ timetable.h
         
 ```
-----------------------------------------------------------
+
 ## Data structures:
 
+----------------------------------------------------------
 ### Hash table
 
 #### Run:
@@ -105,6 +92,7 @@ g++ main.cpp set.cpp -o any_name
  - getbucket(int i) # returns a list of strings in a i-th bucket 
 ```
 
+----------------------------------------------------------
 ### Map
 
 #### Format:
@@ -141,6 +129,7 @@ g++ main.cpp map.cpp -o any_name
                   # in which case doubles the number of buckets and rehashes every element, does nothing otherwise
 ```
 
+----------------------------------------------------------
 ### Queue
 
 #### Format:
@@ -164,6 +153,7 @@ g++ main.cpp queue.cpp -o any_name
  - empty() # returns true if the list is empty
 ```     
 
+----------------------------------------------------------
 ### Set 
 
 #### Format:
@@ -195,6 +185,7 @@ set < std::string >
  - checksorted() #checks if the tree is sorted, throws an exception if it is not
 ```
 
+----------------------------------------------------------
 ### Set 
 
 #### Format:
@@ -224,6 +215,7 @@ set < std::string >
  - subset(set& s1, set& s2) # rturns true if s1 is a subset of s2
 ```
 
+----------------------------------------------------------
 ### Stack (linked list)
 
 #### Format:
@@ -247,6 +239,7 @@ g++ main.cpp stack.cpp -o any_name
  - reset( int s ) #removes s number of elements from the top of the list
 ```
 
+----------------------------------------------------------
 ### Stack (vector)
 
 #### Format:
